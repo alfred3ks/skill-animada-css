@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.habilidades {
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.habilidades h2 {
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.html {
+  background-color: #ff8000;
+  color: #000000;
+  margin-bottom: 20px;
+  /* Creamos la animacion */
+  animation: fillhtml 2s forwards ease;
+}
+.css {
+  background-color: #0000ff;
+  color: #ffffff;
+  margin-bottom: 20px;
+  /* Creamos la animacion */
+  animation: fillcss 2s forwards ease;
+}
+.javascript {
+  background-color: #ffff00;
+  color: #000000;
+  /* Creamos la animacion */
+  animation: filljs 2s forwards ease;
+}
+
+/* Creamos el keyframe de la animación */
+@keyframes fillhtml {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes fillcss {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes filljs {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
